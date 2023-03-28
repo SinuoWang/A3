@@ -10,3 +10,11 @@
 To-DO: 
 1. Settle doen topic before, 27th, next monday
 
+
+28 Mar
+1. Nhan: nltk pyhon, GUI
+2. Sinuo: Sci-BERT. paper
+3. Biao: Later, many ideas.
+
+
+1. Unify metrics (get from other paper )
