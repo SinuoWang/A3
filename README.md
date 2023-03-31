@@ -1,20 +1,24 @@
 # A3
 
-1. choose Op1/Op1, depends on which one has available code
-2. Each person, do a benchmark, and write pseudo methodology in Overleaf (like dot points)
-3. Unify a clean sub-dataset, (we all used different sampled subset)
-4. Each person work on their own ipynb, and merge at the end.
-5. before settle down our method, MUST check with the rest of the group members (1. check whether the method meet the requirement of the assignment. 2. avoiding differernt people implementing the same code)
+## Dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
-To-DO: 
-1. Settle doen topic before, 27th, next monday
+## Implementation
 
+Using NLTK to apply **Extractive Summarization** with two approaches:
 
-28 Mar
-1. Nhan: nltk pyhon, GUI
-2. Sinuo: Sci-BERT. paper
-3. Biao: Later, many ideas.
+1. **Weighted sentence**: calculate weight for each sentence based on the frequency of each word in the whole text.
+2. **Text rank**: inspired by *Page Rank*, similarity between any two sentences is used as an equivalent to the web page transition probability.
 
+The detail of implementation is in the `summarization.py`.
 
-1. Unify metrics (get from other paper )
+## Web app
+
+Using `streamlit` package for web app. After install all dependencies, use the following command to run:
+
+```bash
+streamlit run app.py
+```
