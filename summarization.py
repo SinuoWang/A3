@@ -156,7 +156,7 @@ class Summarizer:
 
         # Extract word vectors
         word_embeddings = {}
-        with open('glove.6B.100d.txt', encoding='utf-8') as f:
+        with open('data/glove.6B.100d.txt', encoding='utf-8') as f:
             for line in f.readlines():
                 values = line.split()
                 word = values[0]

@@ -4,3 +4,4 @@ pandas
 networkx
 nltk
 sklearn
+spacy
