@@ -1,3 +1,5 @@
 *.pkl
 *.csv
 *_tokenizer_/
+*.json
+*.txt
